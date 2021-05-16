@@ -17,7 +17,7 @@ const questions = [
     },
     {
         type: "input",
-        message: "What is your GitHub porject title?",
+        message: "What is your GitHub project title?",
         name: "title"
     },
     {
@@ -50,6 +50,11 @@ function writeToFile(fileName, data) {
 
 // TODO: Create a function to initialize app
 function init() {
+    //prompt user for q/a
+    inquirer.prompt(questions)
+    .then(function(data) {
+        writeToFile("README.MD", generateMarkdown(data))
+    })
 
 }
 
