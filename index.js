@@ -22,8 +22,13 @@ const questions = [
     },
     {
         type: "input",
-        message: "Please write a brief description of your porject.",
+        message: "Please write a brief description of your project.",
         name: "description"
+    },
+    {
+        type: "input",
+        message: "List your collaborators, if any, with links to their GitHub profiles.",
+        name: "credit"
     },
     {
         type: "list",
@@ -36,6 +41,16 @@ const questions = [
             "Mozilla Public License 2.0",
             "BSD 3-Clause"
         ]
+    },
+    {
+        type: "input",
+        message: "If you would like other developers to contribute it, please provide guidelines on how to do so.",
+        name: "contributors"
+    },
+    {
+        type: "input",
+        message: "Provide the test cases for your application, if any.",
+        name: "tests"
     },
 ];
 

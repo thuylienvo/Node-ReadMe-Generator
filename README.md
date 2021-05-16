@@ -1,2 +1,5 @@
-# readme generator
+# Node-ReadMe-Generator
+
+  $(renderLicenseBadge)
+
 
