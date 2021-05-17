@@ -27,7 +27,7 @@
   ## Installation
   To generate a README, first run `npm install` the required dependencies as specified in package.json:
 
-  `npm init`
+  `npm init`   
   `npm install inquirer` 
 
   The application can be invoked with node index.js.
@@ -35,8 +35,9 @@
   ## Usage 
   When you run `node index.js` in your terminal, the app uses the inquirer package to prompt the user with a series of questions about your project and GitHub account. 
 
-
-  Lastly, your README file will be created with `fs.writeFile`. There you have it! A professional README without the need to draw up a markdown outside of the command-line.
+  Once all the questions have been answered, the data is collected and your README file will be created with `fs.writeFile`.  
+  
+  There you have it! A professional README without the need to draw up a markdown outside of the command-line.
 
   ## License  
 
