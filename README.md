@@ -4,7 +4,7 @@
 
   ## Description
 
-  When creating a project/application, it is imperative to have a high-quality README file. This means it will include the what, where, why and how of your project. 
+  When creating a project/application, it is important to have a high-quality README file. This means it will include the what, where, why and how of your project. 
 
   * What is the app for   
   * Why was it created   
@@ -38,6 +38,8 @@
   Once all the questions have been answered, the data is collected and your README file will be created with `fs.writeFile`.  
   
   There you have it! A professional README without the need to draw up a markdown outside of the command-line.
+
+  View a sample README.md file generate with the application [here](https://github.com/thuylienvo/Node-ReadMe-Generator/tree/main/dist#readme). 
 
   ## License  
 
