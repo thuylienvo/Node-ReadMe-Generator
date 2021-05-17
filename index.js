@@ -70,16 +70,16 @@ function writeToFile(fileName, data) {
 
     fs.writeFile(fileName, data, err => {
         if (err) throw err;
-        console.log(fileName, data);
+        console.log("You did it!");
     }
 )};
 
 // TODO: Create a function to initialize app
-function init() {
+ async function init() {
     //prompt user for q/a
     inquirer.prompt(questions)
     .then(function(data) {
-        writeToFile("README.MD", generateMarkdown(data));
+        writeToFile("./dist/README.MD", generateMarkdown(data));
     })
 
 }
