@@ -10,7 +10,7 @@ const licenseBadgeLinks = {
 // TODO: Create a function that returns a license badge based on which license is passed in
 // If there is no license, return an empty string
 function renderLicenseBadge(license) {
-
+    data.licenseBadge = licenseBadgeLinks[data.license];
 }
 
 // TODO: Create a function that returns the license link
@@ -25,16 +25,52 @@ function renderLicenseBadge(license) {
 
 // TODO: Create a function to generate markdown for README
 function generateMarkdown(data) {
-  return `# ${data.title}
+  return `
+  
+  # ${data.title}
 
-  $(renderLicenseBadge)
+  ## Description
+
+  ${data.description}
+
+  ## Table of Contents
+
+  * [Installation](#installation)
+  * [Usage](#usage)
+  * [Credits](#credit)
+  * [License](#license)
+  * [Contributing](#contributors)
+  * [Tests](#tests)
+  * [Questions](#questions)
+  
+  ## Installation
+  
+  ${data.installation}
+
+  ## Usage 
+
+  ${data.usage}
+
+  ## Credits 
+
+  ${data.credit}
+
+  ## License  
+
+  ${data.licenseBadge}
+
+  ## Contributing
+  ${data.contributors}
+
+  ## Tests
+
+  ${data.tests}
+
+  ## Questions
+  For any questions, connect with me at [$data{email}](mailto:${data.email}). 
 
 
 `;
 }
-
-
-
-
 
 module.exports = generateMarkdown;
