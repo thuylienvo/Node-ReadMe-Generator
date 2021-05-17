@@ -1,4 +1,5 @@
 
+
   
   # Node-ReadMe-Generator
 
@@ -18,7 +19,7 @@
   
   ## Installation
   
-  undefined
+  asdfh
 
   ## Usage 
 
@@ -26,20 +27,20 @@
 
   ## Credits 
 
-  
+  asdhfahdfkah
 
   ## License  
 
-  undefined
+  This repo is licensed under the MIT license.
 
   ## Contributing
   
 
   ## Tests
 
-  test
+  
 
   ## Questions
-  For any questions, connect with me at [$data{email}](mailto:mimzy414@gmail.com). 
+  For any questions, connect with me at [$data{email}](mailto:mimzy414@gmail.com). Check out more of my work at [thuylienvo](https://github.com/thuylienvo) 
 
 
