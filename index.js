@@ -27,6 +27,16 @@ const questions = [
     },
     {
         type: "input",
+        message: "Please provide a step-by-step of how to install your project.",
+        name: "installation"
+    },
+    {
+        type: "input",
+        message: "Provide instructions and examples for use.",
+        name: "Usage"
+    },
+    {
+        type: "input",
         message: "List your collaborators, if any, with links to their GitHub profiles.",
         name: "credit"
     },
