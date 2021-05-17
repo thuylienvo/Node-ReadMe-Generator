@@ -70,12 +70,12 @@ function writeToFile(fileName, data) {
 
     fs.writeFile(fileName, data, err => {
         if (err) throw err;
-        console.log("You did it!");
+        console.log("You've successfully created a README!");
     }
 )};
 
 // TODO: Create a function to initialize app
- async function init() {
+function init() {
     //prompt user for q/a
     inquirer.prompt(questions)
     .then(function(data) {
