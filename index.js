@@ -24,7 +24,7 @@ const questions = [
     {
         type: "input",
         message: "Provide instructions and examples for use.",
-        name: "Usage"
+        name: "usage"
     },
     {
         type: "input",
@@ -79,7 +79,7 @@ function init() {
     //prompt user for q/a
     inquirer.prompt(questions)
     .then(function(data) {
-        writeToFile("README.MD", generateMarkdown(data))
+        writeToFile("README.MD", generateMarkdown(data));
     })
 
 }

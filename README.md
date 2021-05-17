@@ -1,11 +1,10 @@
 
-
   
-  # Node-ReadMe-Generator
+  # test Mozilla Public License 2.0
 
   ## Description
 
-  Node-ReadMe-Generator
+  asdfasdfa
 
   ## Table of Contents
 
@@ -18,29 +17,28 @@
   * [Questions](#questions)
   
   ## Installation
-  
-  asdfh
+  To install the dependencies, run the following: 
+  asdfadf
 
   ## Usage 
-
-  undefined
+  asdfasdf
 
   ## Credits 
-
-  asdhfahdfkah
+  adfasdfa
 
   ## License  
 
-  This repo is licensed under the MIT license.
+  This repo is licensed under the Mozilla Public License 2.0 license. 
 
   ## Contributing
-  
+  adfadfadf
 
   ## Tests
+  In order to run tests, run the following:
 
-  
+  adfadf
 
   ## Questions
-  For any questions, connect with me at [$data{email}](mailto:mimzy414@gmail.com). Check out more of my work at [thuylienvo](https://github.com/thuylienvo) 
+  For any questions, connect with me at [mimzy414@gmail.com](mailto:mimzy414@gmail.com). Check out more of my work at [adfadfadf](https://github.com/adfadfadf) 
 
 

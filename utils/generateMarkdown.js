@@ -10,13 +10,26 @@ const licenseBadgeLinks = {
 // TODO: Create a function that returns a license badge based on which license is passed in
 // If there is no license, return an empty string
 function renderLicenseBadge(license) {
-    data.licenseBadge = licenseBadgeLinks[data.license];
+    if (license === "MIT") {
+        badgeURL = "[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)]";
+    } else if(license === "Apache 2.0"){
+        badgeURL = "[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)]";
+    } else if(license === "GNU v3"){
+        badgeURL = "[![License: LGPL v3](https://img.shields.io/badge/License-LGPL%20v3-blue.svg)]";
+    } else if(license === "Mozilla Public License 2.0"){
+        badgeURL = "[![License: MPL 2.0](https://img.shields.io/badge/License-MPL%202.0-brightgreen.svg)]";
+    } else if(license === "BSD 3-Clause"){
+        badgeURL = "[![License](https://img.shields.io/badge/License-BSD%203--Clause-blue.svg)]";
+    } else {
+        return '';
+    }
+    //end of conditional
 }
+
 
 // TODO: Create a function that returns the license link
 // If there is no license, return an empty string
 function renderLicenseLink(license) {
-
 }
 
 // TODO: Create a function that returns the license section of README
@@ -27,12 +40,12 @@ function renderLicenseSection(license) {}
 function generateMarkdown(data) {
 
     //license badge URL
-    data.licenseBadge = licenseBadgeLinks[data.license]
+    data.licenseBadge = licenseBadgeLinks[data.license];
 
+  //Display markdown data from user  
   return `
-
   
-  # ${data.title}
+  # ${data.title} ${data.license}
 
   ## Description
 
@@ -49,30 +62,29 @@ function generateMarkdown(data) {
   * [Questions](#questions)
   
   ## Installation
-  
+  To install the dependencies, run the following: 
   ${data.installation}
 
   ## Usage 
-
   ${data.usage}
 
   ## Credits 
-
   ${data.credit}
 
   ## License  
 
-  This repo is licensed under the ${data.license} license.
+  This repo is licensed under the ${data.license} license. 
 
   ## Contributing
   ${data.contributors}
 
   ## Tests
+  In order to run tests, run the following:
 
   ${data.tests}
 
   ## Questions
-  For any questions, connect with me at [$data{email}](mailto:${data.email}). Check out more of my work at [${data.username}](https://github.com/${data.username}) 
+  For any questions, connect with me at [${data.email}](mailto:${data.email}). Check out more of my work at [${data.username}](https://github.com/${data.username}) 
 
 
 `;
