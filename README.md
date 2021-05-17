@@ -27,10 +27,10 @@
   ## Installation
   To generate a README, first run `npm install` the required dependencies as specified in package.json:
 
-    * `npm init`
-    * `npm install inquirer` 
+  `npm init`
+  `npm install inquirer` 
 
-    The application can be invoked with node index.js.
+  The application can be invoked with node index.js.
 
   ## Usage 
   When you run `node index.js` in your terminal, the app uses the inquirer package to prompt the user with a series of questions about your project and GitHub account. 
