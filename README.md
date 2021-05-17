@@ -1,6 +1,6 @@
 
   
-  # asdasdfasdfasdf [![License](https://img.shields.io/badge/License-MIT-yellow.svg)] 
+  # Node-README-Generator [![License](https://img.shields.io/badge/License-MIT-yellow.svg)] 
 
   ## Description
 
@@ -15,7 +15,7 @@
     This is a command-line application that runs on `Node.js` and dynamically creates a professional README.md file from the data the user inputs. 
 
     See the following demonstation: 
-    
+
 
   ## Table of Contents
 
