@@ -6,15 +6,15 @@
 
   When creating a project/application, it is imperative to have a high-quality README file. This means it will include the what, where, why and how of your project. 
 
-    What is the app for   
-    Why was it created   
-    How to install and use it 
-    How to report issues
-    How to make contributions
+  What is the app for   
+  Why was it created   
+  How to install and use it 
+  How to report issues
+  How to make contributions
 
-    This is a command-line application that runs on `Node.js` and dynamically creates a professional README.md file from the data the user inputs. 
+  This is a command-line application that runs on `Node.js` and dynamically creates a professional README.md file from the data the user inputs. 
 
-    See the following demonstation: 
+  See the following demonstation: 
 
 
   ## Table of Contents
