@@ -14,8 +14,9 @@
 
   This is a command-line application that runs on `Node.js` and dynamically creates a professional README.md file from the data the user inputs. 
 
-  See the following demonstation: 
+  ![Gif of Node-ReadMe-Generator demo] (readme-demoGif.gif)
 
+   See the full demonstation here: (readme-demoFull)
 
   ## Table of Contents
 
