@@ -1,10 +1,10 @@
 
   
-  # readme node [![License: MPL 2.0](https://img.shields.io/badge/License-MPL%202.0-brightgreen.svg)] 
+  # Node ReadMe Generator [![License: LGPL v3](https://img.shields.io/badge/License-LGPL%20v3-blue.svg)] 
 
   ## Description
 
-  readme node
+  When creating a project or application, it is important to have a hight quality readme. 
 
   ## Table of Contents
 
@@ -12,33 +12,35 @@
   * [Usage](#usage)
   * [Credits](#credit)
   * [License](#license)
-  * [Contributing](#contributors)
+  * [Contributing](#Contributing)
   * [Tests](#tests)
   * [Questions](#questions)
   
   ## Installation
   To install the dependencies, run the following: 
-  asdasdfasdfasdf
+  To generate a README, first run `npm install` . Enter `npm init` followed by `npm install inquirer`. The application can be invoked with node index.js
 
   ## Usage 
-  asdfasdfasdf
+  When you run node index.js in your terminal, the app uses the inquirer package to prompt the user with a series of questions about your project and GitHub account.  Once all the questions have been answered, the data is collected and your README file will be created with fs.writeFile.  There you have it! A professional README without the need to draw up a markdown outside of the command-line.
 
   ## Credits 
-  asdfasdfasdf
+  
 
   ## License  
-
-  This repo is licensed under the Mozilla Public License 2.0 license. (https://opensource.org/licenses/MPL-2.0) 
+  Not Applicable
+  This repo is licensed under the GNU v3 license. (https://www.gnu.org/licenses/lgpl-3.0) 
 
   ## Contributing
-  adfasdfasdfasd
+  
 
   ## Tests
   In order to run tests, run the following:
 
-  fasdfasdf
+  Test 1
 
-  ## Questions
-  For any questions, connect with me at [asdfasdf](mailto:asdfasdf). Check out more of my work at [asdfasdfa](https://github.com/asdfasdfa) 
+  ## Questions?
+  For any questions, please contact me at [mimzy414@gmail.com](mailto:mimzy414@gmail.com). 
+  
+  GitHub: [thuylienvo](https://github.com/thuylienvo) 
 
 
